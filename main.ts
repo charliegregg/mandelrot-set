@@ -22,7 +22,7 @@ function mandel(point: vec2) {
     }
     return(Math.floor(detail)-its)
 }
-let camerapos = new vec2(0,0)
+let camerapos = new vec2(-2,0)
 let zoom = 0.02
 let zoomfactor = 2
 let bg = image.create(160, 120)
